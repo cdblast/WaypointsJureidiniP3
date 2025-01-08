@@ -210,6 +210,7 @@ MonoBehaviour:
   - {fileID: 1365990024}
   speed: 40
   rotSpeed: 3
+  lookAhead: 10
 --- !u!1 &49383723
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,6 +622,7 @@ MonoBehaviour:
   - {fileID: 1365990024}
   speed: 15
   rotSpeed: 10
+  lookAhead: 10
 --- !u!1 &108836180
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,6 +1690,7 @@ MonoBehaviour:
   - {fileID: 1365990024}
   speed: 40
   rotSpeed: 3
+  lookAhead: 10
 --- !u!1 &530890759 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 35c1c886898f94ca0833cccc2e3388a4, type: 3}
@@ -2611,6 +2614,7 @@ MonoBehaviour:
   - {fileID: 1365990024}
   speed: 50
   rotSpeed: 8
+  lookAhead: 10
 --- !u!1 &982847382
 GameObject:
   m_ObjectHideFlags: 0
@@ -2960,6 +2964,7 @@ MonoBehaviour:
   - {fileID: 1365990024}
   speed: 5
   rotSpeed: 15
+  lookAhead: 10
 --- !u!1 &1115149834
 GameObject:
   m_ObjectHideFlags: 0
@@ -3253,6 +3258,7 @@ MonoBehaviour:
   - {fileID: 1365990024}
   speed: 50
   rotSpeed: 8
+  lookAhead: 10
 --- !u!1 &1289049427
 GameObject:
   m_ObjectHideFlags: 0
@@ -3929,6 +3935,7 @@ MonoBehaviour:
   - {fileID: 1365990024}
   speed: 15
   rotSpeed: 10
+  lookAhead: 10
 --- !u!1 &1843468534
 GameObject:
   m_ObjectHideFlags: 0
@@ -4422,6 +4429,7 @@ MonoBehaviour:
   - {fileID: 1365990024}
   speed: 5
   rotSpeed: 15
+  lookAhead: 10
 --- !u!1 &2069546553
 GameObject:
   m_ObjectHideFlags: 0
@@ -5298,6 +5306,7 @@ MonoBehaviour:
   - {fileID: 1365990024}
   speed: 50
   rotSpeed: 8
+  lookAhead: 10
 --- !u!65 &2713447972708953234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6356,6 +6365,7 @@ MonoBehaviour:
   - {fileID: 1365990024}
   speed: 40
   rotSpeed: 3
+  lookAhead: 10
 --- !u!65 &7863693248642204186
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6423,8 +6433,9 @@ MonoBehaviour:
   - {fileID: 1429268617}
   - {fileID: 2078068189}
   - {fileID: 1365990024}
-  speed: 5
+  speed: 50
   rotSpeed: 15
+  lookAhead: 10
 --- !u!65 &7871142010654116012
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6636,6 +6647,7 @@ MonoBehaviour:
   - {fileID: 1365990024}
   speed: 15
   rotSpeed: 10
+  lookAhead: 10
 --- !u!65 &9048989675280529227
 BoxCollider:
   m_ObjectHideFlags: 0
