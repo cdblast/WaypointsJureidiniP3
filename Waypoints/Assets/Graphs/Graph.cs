@@ -43,7 +43,7 @@ public class Graph
     public bool AStar(GameObject startId, GameObject endId)
     {
         Node start = FindNode(startId);
-        NetBiosNodeType end = FindNode(endId);
+        Node end = FindNode(endId);
 
         if((start == null || end == null))
         {
@@ -64,7 +64,7 @@ public class Graph
         {
             int i = lowestF(open);
             Node thisNode = open[i];
-            if (thisNode.getId == endId)
+            if (thisNode.getId() == endId)
             {
                 //reconstructPath(start,end);
                 return true;
