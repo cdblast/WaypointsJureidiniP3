@@ -33,7 +33,7 @@ public class FollowWP2 : MonoBehaviour
 
     public void GoToRuin()
     {
-        g.AStar(currentNode, wps[9]);
+        g.AStar(currentNode, wps[8]);
         currentWP = 0;
     }
 
