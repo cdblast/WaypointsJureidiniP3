@@ -27,7 +27,7 @@ public class FollowWP2 : MonoBehaviour
 
     public void GoToHeli()
     {
-        g.AStar(currentNode, wps[0]);
+        g.AStar(currentNode, wps[15]);
         currentWP = 0;
     }
 
