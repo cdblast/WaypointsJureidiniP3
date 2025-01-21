@@ -20,7 +20,7 @@ public class FollowWP2 : MonoBehaviour
     {
         wps = wpManager.GetComponent<WPManager>().waypoints;
         g = wpManager.GetComponent<WPManager>().graph;
-        currentNode = wps[0];
+        currentNode = wps[13];
 
         Invoke("GoToRuin", 2);
     }
@@ -33,7 +33,7 @@ public class FollowWP2 : MonoBehaviour
 
     public void GoToRuin()
     {
-        g.AStar(currentNode, wps[1]);
+        g.AStar(currentNode, wps[9]);
         currentWP = 0;
     }
 
@@ -57,6 +57,7 @@ public class FollowWP2 : MonoBehaviour
 
             Vector3 direction = lookAtGoal - this.transform.position;
             this.transform.rotation = Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(direction), Time.deltaTime * rotSpeed);
+            this.transform.Translate(0, 0, speed * Time.deltaTime);
 
         }
     }
