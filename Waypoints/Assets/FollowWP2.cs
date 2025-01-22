@@ -18,11 +18,13 @@ public class FollowWP2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 5;
+
         wps = wpManager.GetComponent<WPManager>().waypoints;
         g = wpManager.GetComponent<WPManager>().graph;
         currentNode = wps[13];
 
-        Invoke("GoToRuin", 2);
+        //Invoke("GoToRuin", 2);
     }
 
     public void GoToHeli()
@@ -34,6 +36,12 @@ public class FollowWP2 : MonoBehaviour
     public void GoToRuin()
     {
         g.AStar(currentNode, wps[8]);
+        currentWP = 0;
+    }
+
+    public void GoToFactory()
+    {
+        g.AStar(currentNode, wps[11]);
         currentWP = 0;
     }
 
