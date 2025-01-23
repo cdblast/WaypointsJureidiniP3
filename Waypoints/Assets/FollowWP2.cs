@@ -22,14 +22,14 @@ public class FollowWP2 : MonoBehaviour
 
         wps = wpManager.GetComponent<WPManager>().waypoints;
         g = wpManager.GetComponent<WPManager>().graph;
-        currentNode = wps[13];
+        currentNode = wps[0];
 
         //Invoke("GoToRuin", 2);
     }
 
     public void GoToHeli()
     {
-        g.AStar(currentNode, wps[15]);
+        g.AStar(currentNode, wps[14]);
         currentWP = 0;
     }
 
